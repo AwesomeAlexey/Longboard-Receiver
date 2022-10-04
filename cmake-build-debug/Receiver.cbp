@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Receiver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Receiver.elf">
+				<Option output="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Receiver.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVDD_VALUE=3300"/>
+					<Add option="-DHSE_VALUE=8000000"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DLSI_VALUE=40000"/>
+					<Add option="-DHSI_VALUE=8000000"/>
+					<Add option="-DHSE_STARTUP_TIMEOUT=100"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DLSE_STARTUP_TIMEOUT=5000"/>
+					<Add option="-DLSE_VALUE=32768"/>
+					<Add option="-DPREFETCH_ENABLE=1"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Core/Inc"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Receiver.elf"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Receiver.elf/fast">
+				<Option output="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Receiver.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVDD_VALUE=3300"/>
+					<Add option="-DHSE_VALUE=8000000"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DLSI_VALUE=40000"/>
+					<Add option="-DHSI_VALUE=8000000"/>
+					<Add option="-DHSE_STARTUP_TIMEOUT=100"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DLSE_STARTUP_TIMEOUT=5000"/>
+					<Add option="-DLSE_VALUE=32768"/>
+					<Add option="-DPREFETCH_ENABLE=1"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Core/Inc"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\bin\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 Receiver.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Alex/GitHub/STM32/Receiver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Alex/GitHub/STM32/Receiver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/drivers.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/main.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/nrf24l01-private.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/nrf24l01.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/packet-manager.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/stm32_assert.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/stm32f1xx_it.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/turn-indicators.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/usart.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/user-main.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/vesc.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Inc/ws2812.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/main.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/nrf24l01.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/packet-manager.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/stm32f1xx_it.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/syscalls.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/sysmem.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/system_stm32f1xx.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/turn-indicators.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/usart.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/user-main.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/vesc.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Src/ws2812.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_iwdg.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/STM32F103C8TX_FLASH.ld">
+			<Option target="Receiver.elf"/>
+		</Unit>
+		<Unit filename="D:/Alex/GitHub/STM32/Receiver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
